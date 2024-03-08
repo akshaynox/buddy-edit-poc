@@ -53,7 +53,7 @@ const HomePage = () => {
               value={username}
             />
             <button
-              className="btn joinBtn bg-[#4aed88] w-25 ml-auto hover:bg-[#2b824c] text-black p-2 rounded-md min-w-4"
+              className="btn joinBtn bg-[color:var(--btn-green)] w-25 ml-auto hover:bg-[#2b824c] text-black p-2 rounded-md min-w-4"
               onClick={handleJoinRoom}
             >
               <FormattedMessage id="join" />
@@ -63,7 +63,7 @@ const HomePage = () => {
               &nbsp;
               <button
                 onClick={handleCreateRoom}
-                className="createNewBtn text-[#4aed88] border-b-[1px_solid_#4aed88] [transition:all_0.3s_ease-in-out] hover:cursor-pointer"
+                className="createNewBtn text-[color:var(--btn-green)] border-b-[1px_solid_#4aed88] hover:cursor-pointer"
               >
                 <FormattedMessage id="new_room" />
               </button>

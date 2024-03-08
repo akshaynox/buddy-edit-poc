@@ -279,7 +279,7 @@ const EditorPage = () => {
           <FormattedMessage id="copy_room_id" />
         </button>
         <button
-          className="btn leaveBtn bg-[#4aed88] text-black w-[200px]"
+          className="btn leaveBtn bg-[color:var(--btn-green)] text-black w-[200px]"
           onClick={leaveRoom}
         >
           <FormattedMessage id="leave" />

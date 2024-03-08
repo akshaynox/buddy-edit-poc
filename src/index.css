@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --btn-green: #4aed88;
+}
+
 body {
   font-family: "Arial", sans-serif;
 }
