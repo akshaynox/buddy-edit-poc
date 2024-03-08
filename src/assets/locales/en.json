@@ -1,0 +1,18 @@
+{
+  "title": "Buddy Edit",
+  "room_id": "Room Id",
+  "username": "Username",
+  "join": "Join",
+  "no_invite": "No invitation code? then create",
+  "new_room": "new room",
+  "created_room": "Created New Room",
+  "editing_users": "Editing Users",
+  "leave": "Leave",
+  "me": "Me",
+  "copy_room_id": "Copy Room ID",
+  "details_required": "Room ID & username is required",
+  "room_id_clipboard": "Room ID copied to clipboard!",
+  "joined_room": "has joined the room.",
+  "left_room": "has left the room.",
+  "start_collab": "Start collaborating as a team..."
+}

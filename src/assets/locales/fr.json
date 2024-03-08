@@ -1,0 +1,18 @@
+{
+  "title": "Buddy Edit",
+  "room_id": "Chambre Id",
+  "username": "Nom d'utilisateur",
+  "join": "Rejoindre",
+  "no_invite": "Pas de code d'invitation ? puis créer",
+  "new_room": "Nouvelle pièce",
+  "created_room": "Création d'une nouvelle salle",
+  "editing_users": "Modification des utilisateurs",
+  "leave": "Partir",
+  "me": "Moi",
+  "copy_room_id": "Copier l'ID de la salle",
+  "details_required": "L'ID de la salle et le nom d'utilisateur sont requis",
+  "room_id_clipboard": "ID de la salle copié dans le presse-papier !",
+  "joined_room": "a rejoint la salle.",
+  "left_room": "a quitté la salle.",
+  "start_collab": "Commencez à collaborer en équipe..."
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Buddy Edit",
+  "room_id": "Raum-ID",
+  "username": "Nutzername",
+  "join": "Verbinden",
+  "no_invite": "Kein Einladungscode? dann erstellen",
+  "new_room": "neuer Raum",
+  "created_room": "Neuer Raum erstellt",
+  "editing_users": "Benutzer bearbeiten",
+  "leave": "Verlassen",
+  "me": "Mich",
+  "copy_room_id": "Raum-ID kopieren",
+  "details_required": "Raum-ID und Benutzername sind erforderlich",
+  "room_id_clipboard": "Raum-ID in Zwischenablage kopiert!",
+  "joined_room": "ist dem Raum beigetreten.",
+  "left_room": "hat den Raum verlassen.",
+  "start_collab": "Beginnen Sie als Team zusammenzuarbeiten..."
+}
