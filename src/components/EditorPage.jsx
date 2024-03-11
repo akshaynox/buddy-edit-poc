@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 import ReactQuill, { Quill } from "react-quill";
 import "quill/dist/quill.snow.css";
 import io from "socket.io-client";
@@ -256,7 +256,7 @@ const EditorPage = () => {
   };
 
   return (
-    <div className="mainWrap flex">
+    <div className="mainWrap flex" data-testid="editorpage">
       <div className="aside flex-[0.2] bg-[#283236] p-4 text-white flex flex-col justify-center items-center gap-2">
         <div className="asideInner flex-1">
           <h3 className="text-xl font-bold">

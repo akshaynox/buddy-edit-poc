@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import { FormattedMessage, useIntl } from "react-intl";
@@ -28,6 +28,7 @@ const HomePage = () => {
     <div
       id="body"
       className="h-full m-0 bg-gradient-to-br from-[#005662] to-[#00334d]"
+      data-testid="homepage"
     >
       <div className="fixed right-10 top-10">
         <LangSwitcher />

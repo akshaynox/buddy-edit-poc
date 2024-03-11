@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { IntlContext } from "../utils/context/i11n";
+import { IntlContext } from "../utils/context/i18n";
 
 const langTitles = {
   en: "English",
@@ -21,7 +21,7 @@ const LangSwitcher = () => {
   };
 
   return (
-    <div>
+    <div data-testid="langswitcher">
       <div>
         <select onChange={handleChange} defaultValue={intlContext?.locale}>
           {names.map((name) => (

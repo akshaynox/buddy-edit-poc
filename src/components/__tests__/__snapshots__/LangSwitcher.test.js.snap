@@ -1,0 +1,343 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches editor page snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="mainWrap flex"
+    data-testid="editorpage"
+  >
+    <div
+      class="aside flex-[0.2] bg-[#283236] p-4 text-white flex flex-col justify-center items-center gap-2"
+    >
+      <div
+        class="asideInner flex-1"
+      >
+        <h3
+          class="text-xl font-bold"
+        >
+          Editing Users
+        </h3>
+        <div
+          class="clientsList flex items-center flex-wrap gap-5 m-5"
+        />
+      </div>
+      <button
+        class="btn copyBtn bg-white text-black w-[200px]"
+      >
+        Copy Room ID
+      </button>
+      <button
+        class="btn leaveBtn bg-[color:var(--btn-green)] text-black w-[200px]"
+      >
+        Leave
+      </button>
+    </div>
+    <div
+      class="editorWrap flex-1"
+    >
+      <div
+        class="editor-container"
+        style="height: 100vh;"
+      >
+         
+        <div
+          class="quill "
+          style="height: 100%;"
+        >
+          <div
+            class="ql-toolbar ql-snow"
+          >
+            <span
+              class="ql-formats"
+            >
+              <span
+                class="ql-header ql-picker"
+              >
+                <span
+                  aria-controls="ql-picker-options-2"
+                  aria-expanded="false"
+                  class="ql-picker-label"
+                  role="button"
+                  tabindex="0"
+                >
+                  <svg
+                    viewBox="0 0 18 18"
+                  >
+                     
+                    <polygon
+                      class="ql-stroke"
+                      points="7 11 9 13 11 11 7 11"
+                    />
+                     
+                    <polygon
+                      class="ql-stroke"
+                      points="7 7 9 5 11 7 7 7"
+                    />
+                     
+                  </svg>
+                </span>
+                <span
+                  aria-hidden="true"
+                  class="ql-picker-options"
+                  id="ql-picker-options-2"
+                  tabindex="-1"
+                >
+                  <span
+                    class="ql-picker-item"
+                    data-value="1"
+                    role="button"
+                    tabindex="0"
+                  />
+                  <span
+                    class="ql-picker-item"
+                    data-value="2"
+                    role="button"
+                    tabindex="0"
+                  />
+                  <span
+                    class="ql-picker-item ql-selected"
+                    role="button"
+                    tabindex="0"
+                  />
+                </span>
+              </span>
+              <select
+                class="ql-header"
+                style="display: none;"
+              >
+                <option
+                  value="1"
+                />
+                <option
+                  value="2"
+                />
+                <option
+                  selected="selected"
+                />
+              </select>
+            </span>
+            <span
+              class="ql-formats"
+            >
+              <button
+                class="ql-bold"
+                type="button"
+              >
+                <svg
+                  viewBox="0 0 18 18"
+                >
+                   
+                  <path
+                    class="ql-stroke"
+                    d="M5,4H9.5A2.5,2.5,0,0,1,12,6.5v0A2.5,2.5,0,0,1,9.5,9H5A0,0,0,0,1,5,9V4A0,0,0,0,1,5,4Z"
+                  />
+                   
+                  <path
+                    class="ql-stroke"
+                    d="M5,9h5.5A2.5,2.5,0,0,1,13,11.5v0A2.5,2.5,0,0,1,10.5,14H5a0,0,0,0,1,0,0V9A0,0,0,0,1,5,9Z"
+                  />
+                   
+                </svg>
+              </button>
+              <button
+                class="ql-italic"
+                type="button"
+              >
+                <svg
+                  viewBox="0 0 18 18"
+                >
+                   
+                  <line
+                    class="ql-stroke"
+                    x1="7"
+                    x2="13"
+                    y1="4"
+                    y2="4"
+                  />
+                   
+                  <line
+                    class="ql-stroke"
+                    x1="5"
+                    x2="11"
+                    y1="14"
+                    y2="14"
+                  />
+                   
+                  <line
+                    class="ql-stroke"
+                    x1="8"
+                    x2="10"
+                    y1="14"
+                    y2="4"
+                  />
+                   
+                </svg>
+              </button>
+              <button
+                class="ql-underline"
+                type="button"
+              >
+                <svg
+                  viewBox="0 0 18 18"
+                >
+                   
+                  <path
+                    class="ql-stroke"
+                    d="M5,3V9a4.012,4.012,0,0,0,4,4H9a4.012,4.012,0,0,0,4-4V3"
+                  />
+                   
+                  <rect
+                    class="ql-fill"
+                    height="1"
+                    rx="0.5"
+                    ry="0.5"
+                    width="12"
+                    x="3"
+                    y="15"
+                  />
+                   
+                </svg>
+              </button>
+            </span>
+            <span
+              class="ql-formats"
+            >
+              <button
+                class="ql-image"
+                type="button"
+              >
+                <svg
+                  viewBox="0 0 18 18"
+                >
+                   
+                  <rect
+                    class="ql-stroke"
+                    height="10"
+                    width="12"
+                    x="3"
+                    y="4"
+                  />
+                   
+                  <circle
+                    class="ql-fill"
+                    cx="6"
+                    cy="7"
+                    r="1"
+                  />
+                   
+                  <polyline
+                    class="ql-even ql-fill"
+                    points="5 12 5 11 7 9 8 10 11 7 13 9 13 12 5 12"
+                  />
+                   
+                </svg>
+              </button>
+              <button
+                class="ql-code-block"
+                type="button"
+              >
+                <svg
+                  viewBox="0 0 18 18"
+                >
+                   
+                  <polyline
+                    class="ql-even ql-stroke"
+                    points="5 7 3 9 5 11"
+                  />
+                   
+                  <polyline
+                    class="ql-even ql-stroke"
+                    points="13 7 15 9 13 11"
+                  />
+                   
+                  <line
+                    class="ql-stroke"
+                    x1="10"
+                    x2="8"
+                    y1="5"
+                    y2="13"
+                  />
+                   
+                </svg>
+              </button>
+            </span>
+          </div>
+          <div
+            class="ql-container ql-snow"
+          >
+            <div
+              class="ql-editor ql-blank"
+              contenteditable="true"
+              data-gramm="false"
+              data-placeholder="Start collaborating as a team..."
+            >
+              <p>
+                <br />
+              </p>
+            </div>
+            <div
+              class="ql-clipboard"
+              contenteditable="true"
+              tabindex="-1"
+            />
+            <div
+              class="ql-tooltip ql-hidden"
+            >
+              <a
+                class="ql-preview"
+                href="about:blank"
+                rel="noopener noreferrer"
+                target="_blank"
+              />
+              <input
+                data-formula="e=mc^2"
+                data-link="https://quilljs.com"
+                data-video="Embed URL"
+                type="text"
+              />
+              <a
+                class="ql-action"
+              />
+              <a
+                class="ql-remove"
+              />
+            </div>
+            <div
+              class="ql-cursors"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`matches language switcher snapshot 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="langswitcher"
+  >
+    <div>
+      <select>
+        <option
+          selected=""
+          value="en"
+        >
+          English
+        </option>
+        <option
+          value="de"
+        >
+          German
+        </option>
+        <option
+          value="fr"
+        >
+          French
+        </option>
+      </select>
+    </div>
+  </div>
+</DocumentFragment>
+`;
